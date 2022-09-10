@@ -1,0 +1,113 @@
+module.exports = {
+    "token": "NzY2MTk2OTQ3MzMyNzU5NTc0.GS4ys7.U-gHxDkLh45RW7l99nn3rLV_yjAuXMOmE5yAVk",//*
+    "callbackURL": "https://zepcode.cf/callback",//*
+    "secret": "BOtESJ6XKqoLqRnOLLuLIBkgDVQVUBAV",//*
+    "clientID": "766196947332759574",//*
+    "serverID": "793471450174455880",//*
+    "siteURL": "https://zepcode.cf", //*
+    "mongoURI": "mongodb+srv://lyuex:123kl123@cluster0.1y7ej.mongodb.net/jdjdje?retryWrites=true&w=majority", //*
+    "discordServerURL": "https://discord.gg/ZqdUVrM4YC", //*
+    "staffRoleID": "793538287473524766", //*
+
+    "libraries": ["discord.js", "eris", "JDA", "discord.py", "discord.go"],
+
+    "botDeveloperRole": "793538287473524766", //*
+
+    "socialMedia": {
+        "instagram": "https://instagram.com",
+        "twitter": "https://twitter.com",
+        "github": "https://github.com",
+        "facebook": "https://facebook.com",
+        "youtube": "https://youtube.com"
+    },
+    "log": {
+        "webhookURL": "https://discord.com/api/webhooks/910266283587694612/Hz9ekBkor6fNSd3v1m3s2Bbh25QfXYYSHjBFDRW0Zv8Mf24ZcizniPl5wLLTZJuJfm-k", //*
+        "username": "Darkcode Site Log",
+        "avatarURL": "https://cdn.discordapp.com/avatars/907033395870175232/fd127311f0f4b267a1430f21801d9d9e.webp"
+    },
+
+
+    "onlyAdminPages": ["/staff/settings", "/staff/botquota", "/staff/advertisements", "/staff/codecategories", "/staff/punishments"],
+
+    //BURAYA DOKUNMA
+    "advertisement": [
+        {name: "Ana sayfa", id: 1}, 
+        {name: "Botlar Sayfası", id: 2}, 
+        {name: "Bot Sayfası", id: 3}, 
+        {name: "Bota Oy Verme Sayfası", id: 4}, 
+        {name: "Bot Düzenleme Sayfası", id: 5}, 
+        {name: "Bot Ekleme Sayfası", id: 6}, 
+        {name: "Premium Sayfası", id: 7}, 
+        {name: "Kullanıcı Sayfası", id: 8}, 
+        {name: "Kullanıcı Düzenleme Sayfası", id: 9},
+        {name: "Yetkililer Sayfası", id: 10},
+        {name: "Etiket Sayfası", id: 11},
+        {name: "Sponsorlar Sayfası", id: 12},
+        {name: "Partnerler Sayfası", id: 13},
+        {name: "API Sayfası", id: 14},
+        {name: "Kod Sayfası", id: 15}, 
+        {name: "Kod Ekleme Sayfası", id: 16}, 
+        {name: "Kodlar Sayfası", id: 17}, 
+    ],
+
+    "siteName": "Darkcode List",
+    "premiums": [
+        //1. premium
+        {
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-_sb01sUnk0eLROG_G8nTYo3zYkU7yYhWdw&usqp=CAU",
+            description: `🔰 Darkcode Premium [1] Avantajları - Fiyat (10 ₺)
+
+
+            🔸 BotList Sitesine +3 Bot Ekleme Limiti(Not : Normal Kullanıcılar Max 1 Bot Ekleyebilir)
+            🔸 Sunucuda Reklamınız Yapılır
+            🔸 Satış Platformunda %5 İndirim Kuponuna Sahip Olursunuz
+            🔸 Botlist Sunucusunda 🔰 Darkcode Premium [1] Adında Role Sahip Olursunuz
+            
+            Not : Alınan Premiumlar Süresizdir!` },
+        //2. premium
+        {
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-_sb01sUnk0eLROG_G8nTYo3zYkU7yYhWdw&usqp=CAU",
+            description: `🔰 Darkcode Premium [2] Avantajları - Fiyat (20 ₺)
+
+
+🔸 BotList Sitesine +5 Bot Ekleme Limiti(Not : Normal Kullanıcılar Max 1 Bot Ekleyebilir)
+🔸 Sunucuda @here 'li Reklamınız Yapılır
+🔸 Satış Platformunda %10 İndirim Kuponuna Sahip Olursunuz
+🔸 Botlist Sunucusunda 🔰 Darkcode Premium [2] Adında Role Sahip Olursunuz
+
+Not : Alınan Premiumlar Süresizdir!` },
+        //3. premium
+        {
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-_sb01sUnk0eLROG_G8nTYo3zYkU7yYhWdw&usqp=CAU",
+            description: `🔰 Darkcode Premium [3] Avantajları - Fiyat (30 ₺)
+
+
+            🔸 BotList Sitesine +8 Bot Ekleme Limiti(Not : Normal Kullanıcılar Max 1 Bot Ekleyebilir)
+            🔸 Sunucuda @everyone & @here 'li Reklamınız Yapılır
+            🔸 Satış Platformunda %15 İndirim Kuponuna Sahip Olursunuz
+            🔸 Botlist Sunucusunda 🔰 Darkcode Premium [3] Adında Role Sahip Olursunuz
+            
+            Not : Alınan Premiumlar Süresizdir!`
+        }
+    ],
+
+    "sponsors": [
+        //1. sponsor
+        {
+            image: "https://cdn.discordapp.com/attachments/536965341063020598/856195802384695316/images.png",
+            description: `Detaylı bilgi için discord sunucusuna katılınız.`,
+            url: "https://ankadevs.com/",
+            name: "Anka Community"
+        },
+    ],
+
+    "partners": [
+        //1. partner
+        {
+            image: "https://cdn.discordapp.com/attachments/536965341063020598/856195462141968394/CYXxPBsWQAQzTDi.png",
+            description: `Detaylı bilgi için discord sunucusuna katılınız.`,
+            url: "https://ankadevs.com/",
+            name: "Anka Community"
+        },
+    ]
+}

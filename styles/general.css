@@ -1,0 +1,64 @@
+body {
+  background: rgb(33, 36, 39);
+}
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.default-font {
+    font-family: Poppins;
+}
+
+.bg-discord-black {
+    background: #23272A;
+}
+
+.bg-discord-black-semidarker {
+    background: rgb(33, 36, 39);
+}
+
+.bg-discord-black-darker {
+    background: rgb(27, 30, 32);
+}
+
+.bg-input {
+    background: rgb(43, 48, 51);
+}
+
+.hover\:bg-input:hover {
+    background: rgb(43, 48, 51);
+}
+
+.hover\:bg-discord-black:hover {
+    background: rgb(43, 48, 51);
+}
+
+.border-discord-black {
+    border-color: rgb(43, 48, 51);
+}
+
+@media (min-width: 768px) { 
+    .md\:w-102 {
+        width: 26.5rem !important;
+    }
+}
+
+.h-bot-page {
+    height: 48rem;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-1:hover .dropdown-menu-1 {
+  display: block;
+}
+
+input:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: #48bb78;
+}
